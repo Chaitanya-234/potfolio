@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #00d9ff;
+  --secondary: #ff006e;
+  --accent: #8338ec;
+  --bg-dark: #0a0e27;
+  --bg-darker: #050814;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-dark);
+  color: #e8f0f2;
+  overflow-x: hidden;
+}
+
+.dark body {
+  background: var(--bg-darker);
+}
+
+/* Custom Utility Classes */
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-[#00d9ff] via-[#ff006e] to-[#8338ec] bg-clip-text text-transparent;
+  }
+  
+  .card-glow {
+    @apply border border-primary/20 bg-white/5 backdrop-blur-sm transition-all duration-300;
+  }
+  
+  .card-glow:hover {
+    @apply border-primary shadow-[0_0_40px_rgba(0,217,255,0.3)] -translate-y-2;
+  }
+  
+  .btn-glow {
+    @apply relative overflow-hidden bg-gradient-to-r from-primary to-accent text-white font-semibold px-8 py-3 rounded-full transition-all duration-300;
+  }
+  
+  .btn-glow:hover {
+    @apply scale-105 shadow-[0_0_30px_rgba(0,217,255,0.6)];
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(10, 14, 39, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #00d9ff, #8338ec);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #00b8e6, #6b2bb8);
+}
+
+/* Selection styling */
+::selection {
+  background: rgba(0, 217, 255, 0.3);
+  color: white;
+}
+
+::-moz-selection {
+  background: rgba(0, 217, 255, 0.3);
+  color: white;
+}
