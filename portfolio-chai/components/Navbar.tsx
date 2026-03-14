@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FiMenu, FiX, FiDownload } from "react-icons/fi";
 import Image from "next/image";
 
-const navLinks = ["Home", "About", "Skills", "Projects", "Contact"];
+const navLinks = ["Home", "About", "Skills", "Projects"];
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
