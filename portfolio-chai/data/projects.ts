@@ -16,11 +16,11 @@ label: string;
 }
 
 export const projectCategories: ProjectCategory[] = [
-{ id: "all", label: "All Projects" },
-{ id: "fullstack", label: "Full Stack" },
-{ id: "backend", label: "Backend" },
-{ id: "cloud", label: "Cloud & DevOps" },
-{ id: "ai-ml", label: "AI/ML" },
+{ id: "all",       label: "All Projects"   },
+{ id: "fullstack", label: "Full Stack"      },
+{ id: "backend",   label: "Backend"         },
+{ id: "cloud",     label: "Cloud & DevOps"  },
+{ id: "ai-ml",     label: "AI/ML"           },
 ];
 
 export const projects: Project[] = [
@@ -31,6 +31,7 @@ description:
 "Full-stack developer resource platform built from scratch with Next.js and Spring Boot. Features free tools, tech comparisons, code examples, blog posts, and an AI-powered DevBot assistant for real-time technical queries.",
 tags: ["Next.js", "Spring Boot", "MySQL", "REST API", "SSR", "AI Chatbot"],
 categories: ["fullstack", "backend"],
+github: "https://github.com/Chaitanya-234",
 demo: "https://devmetrix.cloud",
 },
 {
