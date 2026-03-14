@@ -62,7 +62,7 @@ const Hero = () => {
   }, [text, isDeleting, loopNum]);
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center px-6 relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-32 pb-16 relative overflow-hidden">
       {/* Animated gradient background */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-purple-500/10 to-accent/20" />
       <motion.div
@@ -148,20 +148,6 @@ const Hero = () => {
             <span className="relative z-10">View My Work</span>
             <motion.div
               className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-full opacity-0"
-              whileHover={{ opacity: 0.1 }}
-              transition={{ duration: 0.3 }}
-            />
-          </motion.a>
-          <motion.a 
-            href="#contact" 
-            className="btn-glow bg-white/10 border border-primary/30"
-            whileHover={{ scale: 1.05, y: -2 }}
-            whileTap={{ scale: 0.95 }}
-            transition={{ type: "spring", stiffness: 300 }}
-          >
-            <span className="relative z-10">Get In Touch</span>
-            <motion.div
-              className="absolute inset-0 bg-gradient-to-r from-accent to-secondary rounded-full opacity-0"
               whileHover={{ opacity: 0.1 }}
               transition={{ duration: 0.3 }}
             />
