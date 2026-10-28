@@ -130,7 +130,7 @@ const Hero = () => {
           transition={{ delay: 0.5 }}
           className="text-lg md:text-xl text-gray-300 leading-relaxed mb-10 max-w-3xl mx-auto"
         >
-          Software Engineer with 1+ years of experience in Java, Spring Boot, AWS cloud deployment, and microservices architecture. Building scalable, secure, and high-performance applications.
+          Software Engineer with 2+ years of experience in Java, Spring Boot, AWS cloud deployment, and microservices architecture. Building scalable, secure, and high-performance applications.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
