@@ -6,7 +6,7 @@ import { FiMapPin, FiBriefcase, FiAward } from "react-icons/fi";
 import { HiOutlineAcademicCap } from "react-icons/hi";
 
 const stats = [
-  { value: "1+",   label: "Years Experience" },
+  { value: "2+",   label: "Years Experience" },
   { value: "99.9%", label: "Uptime Achieved"  },
   { value: "50%",  label: "Latency Reduced"  },
   { value: "60%",  label: "Effort Automated" },
