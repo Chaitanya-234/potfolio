@@ -121,7 +121,7 @@ const Navbar = () => {
 
           {/* Resume button */}
           <motion.a
-            href="/Chaitanya-Resume.pdf"
+            href="/Chaitanya-A-Resume-V1.pdf"
             download
             whileHover={{ scale: 1.04, y: -1 }}
             whileTap={{ scale: 0.96 }}
