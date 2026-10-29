@@ -32,7 +32,7 @@ description:
 tags: ["Next.js", "Spring Boot", "MySQL", "REST API", "SSR", "AI Chatbot"],
 categories: ["fullstack", "backend"],
 github: "https://github.com/Chaitanya-234",
-demo: "https://devmetrix.cloud",
+demo: "https://devmetrix.in",
 },
 {
 id: "mblogger",
